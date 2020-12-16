@@ -12,7 +12,7 @@ import { AlunniService } from '../alunni.service';
 export class AlunniComponent implements OnInit {
 
   alunni?: Alunno[];
-  alunnoSelezionato?: Alunno;
+  alunnoSelezionato: Alunno;
 
   constructor( private alunniService: AlunniService ) { }
 
