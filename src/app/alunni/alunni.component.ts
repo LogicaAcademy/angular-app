@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { Alunno } from '../../alunno';
-import { ALUNNI } from '../../mock-alunni';
+import { Alunno } from '../alunno';
+import { ALUNNI } from '../mock-alunni';
 
 
 @Component({
@@ -11,7 +11,7 @@ import { ALUNNI } from '../../mock-alunni';
 export class AlunniComponent implements OnInit {
 
   alunni = ALUNNI;
-  alunnoSelezionato: Alunno;
+  alunnoSelezionato?: Alunno;
 
   constructor() { }
 
